@@ -16,7 +16,10 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav>
     </div>
   </header> -->
-
+  <nav>
+    <router-link to="/">首页</router-link> |
+    <router-link to="/record">记账</router-link>
+  </nav>
   <RouterView />
 </template>
 
